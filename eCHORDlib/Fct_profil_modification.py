@@ -1,7 +1,7 @@
 import numpy as np
 
 from scipy import fftpack
-from LibrairiesCyril import general_functions as gf
+from eCHORDlib import general_functions as gf
 import scipy.io.wavfile
 import scipy.signal
 import cupy as cp

@@ -17,7 +17,7 @@ from PyQt5 import QtCore
 from PyQt5.QtWidgets import QApplication
 import tifffile as tf
 
-from LibrairiesCyril import general_functions as gf
+from eCHORDlib import general_functions as gf
 
 
 path2thisFile = abspath(getsourcefile(lambda:0))

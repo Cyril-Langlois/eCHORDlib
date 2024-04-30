@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 import diffpy.structure as dfs
 
 import Dans_Diffraction as da
-import LibrairiesCyril.Xallo as xa
-from LibrairiesCyril import Symetry as sy
+import eCHORDlib.Xallo as xa
+from eCHORDlib import Symetry as sy
 
 from orix.crystal_map import CrystalMap, PhaseList
 from orix.quaternion import Rotation, symmetry
@@ -22,7 +22,7 @@ from orix.vector import Vector3d
 import tkinter as tk
 from tkinter import filedialog
 
-from LibrairiesCyril import general_functions as gf
+from eCHORDlib import general_functions as gf
 
 root = tk.Tk()       # initialisation du dialogue
 root.withdraw()

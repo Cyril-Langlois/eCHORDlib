@@ -25,7 +25,7 @@ from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import QApplication
 import tifffile as tf
 
-from LibrairiesCyril import general_functions as gf
+from eCHORDlib import general_functions as gf
 
 
 if hasattr(QtCore.Qt, 'AA_EnableHighDpiScaling'):

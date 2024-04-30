@@ -8,8 +8,8 @@ import math
 import os
 import h5py
 import numpy as np
-from LibrairiesCyril import Fct_profil_modification as fct
-from LibrairiesCyril import general_functions as gf
+from eCHORDlib import Fct_profil_modification as fct
+from eCHORDlib import general_functions as gf
 
 
 _, _, fileP, keys = gf.openH5file()

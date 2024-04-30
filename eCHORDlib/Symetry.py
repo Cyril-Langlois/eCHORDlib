@@ -10,7 +10,7 @@ import os
 
 sep = os.sep
 
-from LibrairiesCyril import Xallo as xa
+from eCHORDlib import Xallo as xa
 import numpy as np
 import Dans_Diffraction as dif
 

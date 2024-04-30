@@ -6,10 +6,10 @@ Created on Wed Feb  1 20:53:26 2023
 """
 import os
 
-import LibrairiesCyril.Xallo as xa
-from LibrairiesCyril import Symetry as sy
-from LibrairiesCyril import Fct_profil_modification as fct
-from LibrairiesCyril import general_functions as gf
+import eCHORDlib.Xallo as xa
+from eCHORDlib import Symetry as sy
+from eCHORDlib import Fct_profil_modification as fct
+from eCHORDlib import general_functions as gf
 
 from numba import jit
 from pyquaternion import Quaternion
